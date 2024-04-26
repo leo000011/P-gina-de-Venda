@@ -1,13 +1,11 @@
 .header {
   background: #000;
   line-height: 27px;
-  width: 100%;
 }
 
 .header h3 {
   font-size: 15px;
   color: #12ff00;
   text-align: center;
-
   font-weight: 600;
 }
