@@ -1,0 +1,52 @@
+.dese {
+  background: #000;
+  position: relative;
+}
+
+.dese svg {
+  position: absolute;
+  top: -200px;
+  z-index: 0;
+}
+
+.dese .preco {
+  position: relative;
+  color: #fff;
+  z-index: 21;
+  max-width: 1120px;
+  margin: 0 auto;
+  height: 50vh;
+  align-content: center;
+  text-align: center;
+}
+
+.dese .preco h2 {
+  color: #f00;
+  font-size: 3.375rem;
+  font-family: "Roboto";
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 9px;
+}
+
+.dese .preco h3 {
+  font-size: 1.875rem;
+  font-family: "Roboto";
+  line-height: 1;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+
+.dese .preco h3:nth-of-type(2) {
+  font-family: "Poppins";
+  font-weight: 900;
+}
+.dese .preco h1 {
+  font-size: 5rem;
+  color: #12ff00;
+  font-family: "Poppins";
+  font-weight: 900;
+  line-height: 1;
+  text-shadow: 0 0 25px #12ff00;
+  margin-bottom: 9px;
+}
