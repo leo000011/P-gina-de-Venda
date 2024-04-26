@@ -33,7 +33,7 @@
   z-index: 21;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
   .introducao {
     padding: 30px 20px 25px;
   }
