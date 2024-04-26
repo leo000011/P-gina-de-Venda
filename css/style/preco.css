@@ -12,10 +12,9 @@
 
 .dese .preco {
   position: relative;
-  color: #fff;
-  z-index: 21;
   max-width: 1120px;
   margin: 0 auto;
+  color: #fff;
   height: 50vh;
   align-content: center;
   text-align: center;
@@ -55,5 +54,16 @@
 @media (max-width: 480px) {
   .dese svg {
     top: -50px;
+  }
+
+  .dese .preco h2 {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  .dese .preco h3 {
+    font-size: 1rem;
+  }
+  .dese .preco h1 {
+    font-size: 2.5rem;
   }
 }
