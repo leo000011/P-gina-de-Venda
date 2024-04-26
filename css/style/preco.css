@@ -1,6 +1,7 @@
 .dese {
   background: #000;
   position: relative;
+  max-width: 1120px;
 }
 
 .dese svg {
@@ -49,4 +50,10 @@
   line-height: 1;
   text-shadow: 0 0 25px #12ff00;
   margin-bottom: 9px;
+}
+
+@media (max-width: 480px) {
+  .dese svg {
+    top: -50px;
+  }
 }
