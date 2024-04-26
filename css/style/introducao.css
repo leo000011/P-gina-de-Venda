@@ -16,7 +16,7 @@
 .introducao h1 {
   color: #fff;
   text-align: center;
-  font-size: 48px;
+  font-size: 3rem;
   font-family: "Roboto";
   font-weight: 900;
   line-height: 1;
@@ -31,4 +31,14 @@
 }
 .introducao img {
   z-index: 21;
+}
+
+@media (min-width: 480px) {
+  .introducao {
+    padding: 30px 20px 25px;
+  }
+
+  .introducao h1 {
+    font-size: 1.5rem;
+  }
 }
