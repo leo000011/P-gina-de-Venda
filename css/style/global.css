@@ -10,7 +10,9 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+dd,
+dt {
   padding: 0;
   margin: 0;
 }
